@@ -3,7 +3,6 @@ import React from "react";
 import Login from "./taskSite/Login";
 import Home from "./taskSite/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Appbar from "./taskSite/Appbar";
 import Register from "./taskSite/Register";
 
 function App() {

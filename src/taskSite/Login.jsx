@@ -15,7 +15,7 @@ function Login() {
         try{
             let res= await axios.post("https://products-jwt.onrender.com/users/login",logCred) ;
             localStorage.setItem("logcred",JSON.stringify(res));
-            console.log(res)
+            // console.log(res)
             if(localStorage.getItem("logcred")){
                 // route to home page
                 navigate('/Home')
